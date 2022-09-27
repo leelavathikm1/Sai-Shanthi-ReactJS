@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      table {
+        border-collapse: collapse;
+      }
       img {
         width: 25px;
         height: 15px;
+      }
+      thead {
+        background: aqua;
+      }
+      tr#persuing {
+        color: blue;
+      }
+      tr.pass {
+        background: green;
+      }
+      tr.fail {
+        color: red;
+        background: yellow;
+      }
+      td {
+        padding: 5px;
+        /* text-align: left; */
       }
     </style>
   </head>
@@ -30,8 +50,28 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="pass">
           <td><img src="./flower.jpg" alt="" /></td>
+          <td>1</td>
+          <td>Krishna</td>
+          <td>32</td>
+          <td colspan="2">78678980</td>
+          <td>Karimnagar</td>
+          <td>Telangana</td>
+          <td>789799</td>
+        </tr>
+        <tr class="fail">
+          <td><img src="./flower2.jpg" alt="" /></td>
+          <td>2</td>
+          <td>Shanthi</td>
+          <td>30</td>
+          <td>6578999</td>
+          <td rowspan="2">Chittoor</td>
+          <td>Andhra Pradesh</td>
+          <td>570022</td>
+        </tr>
+        <tr class="pass">
+          <td><img src="./flower2.jpg" alt="" /></td>
           <td>1</td>
           <td>Krishna</td>
           <td>32</td>
@@ -40,7 +80,7 @@
           <td>Telangana</td>
           <td>789799</td>
         </tr>
-        <tr>
+        <tr id="persuing">
           <td><img src="./flower.jpg" alt="" /></td>
           <td>2</td>
           <td>Shanthi</td>
@@ -50,7 +90,7 @@
           <td>Andhra Pradesh</td>
           <td>570022</td>
         </tr>
-        <tr>
+        <tr class="pass">
           <td><img src="./flower.jpg" alt="" /></td>
           <td>1</td>
           <td>Krishna</td>
@@ -60,7 +100,7 @@
           <td>Telangana</td>
           <td>789799</td>
         </tr>
-        <tr>
+        <tr class="fail">
           <td><img src="./flower.jpg" alt="" /></td>
           <td>2</td>
           <td>Shanthi</td>
@@ -70,7 +110,7 @@
           <td>Andhra Pradesh</td>
           <td>570022</td>
         </tr>
-        <tr>
+        <tr class="pass">
           <td><img src="./flower.jpg" alt="" /></td>
           <td>1</td>
           <td>Krishna</td>
@@ -80,27 +120,7 @@
           <td>Telangana</td>
           <td>789799</td>
         </tr>
-        <tr>
-          <td><img src="./flower.jpg" alt="" /></td>
-          <td>2</td>
-          <td>Shanthi</td>
-          <td>30</td>
-          <td>6578999</td>
-          <td>Chittoor</td>
-          <td>Andhra Pradesh</td>
-          <td>570022</td>
-        </tr>
-        <tr>
-          <td><img src="./flower.jpg" alt="" /></td>
-          <td>1</td>
-          <td>Krishna</td>
-          <td>32</td>
-          <td>78678980</td>
-          <td>Karimnagar</td>
-          <td>Telangana</td>
-          <td>789799</td>
-        </tr>
-        <tr>
+        <tr class="fail">
           <td><img src="./flower.jpg" alt="" /></td>
           <td>2</td>
           <td>Shanthi</td>
