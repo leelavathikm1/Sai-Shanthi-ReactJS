@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DivLayout</title>
+    <style>
+      .container {
+        border: 2px solid;
+      }
+      div#header {
+        background: black;
+        color: white;
+        text-align: center;
+        margin: 5px 5px 0 5px;
+      }
+      strong {
+        font-size: 35px;
+      }
+      .middleSection {
+        overflow: auto;
+        margin: 0 5px 0 5px;
+      }
+      .listItems {
+        background: lightblue;
+        width: 300px;
+        float: left;
+        height: 200px;
+      }
+      ul {
+        list-style: none;
+      }
+      li {
+        line-height: 2;
+      }
+      .description {
+        float: right;
+        width: 526px;
+        margin-left: 10px;
+      }
+      div#footer {
+        background: black;
+        color: white;
+        text-align: center;
+        height: 30px;
+        margin: 0 5px 0 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <strong>Indian States</strong>
+      </div>
+      <div class="middleSection">
+        <div class="listItems">
+          <ul>
+            <li>Andhra</li>
+            <li>Telangana</li>
+            <li>Karnataka</li>
+            <li>Kerala</li>
+            <li>Tamilnadu</li>
+          </ul>
+        </div>
+        <div class="description">
+          <h2>South Indian State Details</h2>
+          <p>
+            The Hindi-belt of Uttar Pradesh, Madya Pradesh, Bihar, Jharkhand,
+            Chattisgarh, Rajasthan, Delhi, Punjab, Haryana is generally
+            considered as the heartland
+          </p>
+          <p>
+            North India. Tamil Nadu, Andhra Pradesh, Telangana, Karnataka,
+            Kerala is considered mainly as South India.
+          </p>
+        </div>
+      </div>
+      <div id="footer">
+        <p>CopyRights @Indain States</p>
+      </div>
+    </div>
+  </body>
+</html>
