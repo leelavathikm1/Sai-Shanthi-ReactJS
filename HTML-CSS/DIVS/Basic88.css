@@ -1,0 +1,75 @@
+*{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+div#headsection {
+    background: black;
+    color: white;
+    overflow: auto;
+}
+header {
+    width: 800px;
+    margin: auto;
+}
+.basic {
+    width: 250px;
+    float: left;
+}
+nav {
+    width: 500px;
+    float: right;
+    background: gray;
+    margin-top: 23px;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+header nav ul li a {
+    text-decoration: none;
+}
+div#imageSection {
+    width: 800px;
+    margin: auto;
+}
+div#imageSection {
+    width: 800px;
+    margin: auto;
+}
+#imageSection img {
+    width: 800px;
+    height: 300px;
+    margin-top: 10px;
+}
+div#divsection {
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+.smallImagesLeft {
+    width: 240px;
+    float: left;
+    margin-right: 10px;
+}
+.smallImagesLeft figure {
+    width: 240px;
+    margin: 0;
+    border: 1px solid;
+    padding: 3px;
+}
+.smallImagesLeft img {
+    width: 231px;
+}
+.smallImagesRight {
+    width: 240px;
+    float: right;
+}
+.smallImagesRight figure {
+    width: 232px;
+    margin: 0;
+    border: 1px solid;
+    padding: 3px;
+}
+.smallImagesRight figure img {
+    width: 231px;
+}
